@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  -var nombre = "Raúl"
+  h1 Hola #{nombre}
+  -usuarios = ['Crazy R','Crazy K','Crazy Achus','Crazy Virgin']
+  -each usuario in usuarios
+   p=usuario

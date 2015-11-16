@@ -1,0 +1,22 @@
+{
+  "name": "crazy-grow",
+  "version": "0.0.0",
+  "description": "Simple gestor de cultivo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Duque/crazy-grow"
+  },
+  "author": "Duque",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Duque/crazy-grow/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "jade": "~1.11.0"
+  }
+}
