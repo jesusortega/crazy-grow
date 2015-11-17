@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //Owl Carousel
 $('.owl-carousel').owlCarousel();
 
@@ -81,7 +80,3 @@ var myLineChart = new Chart(ctx).Line(data, {
     legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].strokeColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
 
 });
-
-=======
-app.js
->>>>>>> e9c6d96fbc9be05cf7a3346eddeb390ac3f03d89
