@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Owl Carousel
 $('.owl-carousel').owlCarousel();
 
@@ -81,3 +82,6 @@ var myLineChart = new Chart(ctx).Line(data, {
 
 });
 
+=======
+app.js
+>>>>>>> e9c6d96fbc9be05cf7a3346eddeb390ac3f03d89
