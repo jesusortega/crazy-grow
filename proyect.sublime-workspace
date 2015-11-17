@@ -1,0 +1,967 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"publicado",
+				"publicadorNombre"
+			],
+			[
+				"publica",
+				"publicadorNombre"
+			],
+			[
+				"retr",
+				"retribucion"
+			],
+			[
+				"fecha",
+				"fechaFin	(plantilla_tipo_obraspublicas.html.twig)"
+			],
+			[
+				"con",
+				"contenido"
+			],
+			[
+				"depth",
+				"depth2	(_common.scss)"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"list-group",
+				"list-group-item"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"in",
+				"inherit	(reset.scss)"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding	(reset.scss)"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"morf",
+				"morfont"
+			],
+			[
+				"rig",
+				"right"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"cla",
+				"classes"
+			],
+			[
+				"min-he",
+				"min-height"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"make",
+				"make-md-column"
+			],
+			[
+				"list",
+				"list:n	list-style-type:none"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"d",
+				"d:b	display:block"
+			],
+			[
+				"p",
+				"pr	padding-right"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"com",
+				"comment-cancelar-button"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"min-heih",
+				"apple-min-logical-height"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"fle",
+				"flexbox"
+			],
+			[
+				"flex",
+				"flex-basis"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"comment",
+				"comment_new"
+			],
+			[
+				"bor",
+				"comentario-borde-color"
+			],
+			[
+				"lis",
+				"lis:n	list-style:none"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/sass/app.scss",
+			"settings":
+			{
+				"buffer_size": 40,
+				"line_ending": "Unix",
+				"name": "app.scss"
+			}
+		},
+		{
+			"file": "app/public/javascripts/app.js",
+			"settings":
+			{
+				"buffer_size": 6,
+				"line_ending": "Unix",
+				"name": "app.js"
+			}
+		},
+		{
+			"file": "app/views/layout.jade",
+			"settings":
+			{
+				"buffer_size": 821,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/includes/menu.jade",
+			"settings":
+			{
+				"buffer_size": 1486,
+				"line_ending": "Unix",
+				"name": "menu.jade"
+			}
+		},
+		{
+			"file": "app/views/index.jade",
+			"settings":
+			{
+				"buffer_size": 189,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 180.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTAL",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 429.0
+	},
+	"console":
+	{
+		"height": 54.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/crazy-grow",
+		"/var/www/html/crazy-grow/app",
+		"/var/www/html/crazy-grow/app/public/javascripts",
+		"/var/www/html/crazy-grow/app/public/javascripts/vendor",
+		"/var/www/html/crazy-grow/app/views",
+		"/var/www/html/crazy-grow/app/views/includes"
+	],
+	"file_history":
+	[
+		"/var/www/html/crazy-grow/app/public/javascripts/vendor/underscore-1.8.3.js",
+		"/var/www/html/crazy-grow/app/public/javascripts/backbone-1.2.3.js",
+		"/var/www/html/crazy-grow/app/public/javascripts/jQuery-2.1.4.js",
+		"/var/www/html/crazy-grow/js/app.js",
+		"/var/www/html/crazy-grow/index.html",
+		"/var/www/html/crazy-grow/sass/app.scss",
+		"/home/raul/workspace/subportalestransparencia/app/config/parameters.yml",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/BuscadorBundle/Resources/views/Contenido/plantilla_tipo_retribuciones.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/BuscadorBundle/Resources/views/Contenido/plantilla_tipo_cibi.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/BuscadorBundle/Resources/views/Contenido/plantilla_tipo_aportacionessindicatos.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/BuscadorBundle/Resources/views/Contenido/plantilla_tipo_planesmenores.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/BuscadorBundle/Resources/views/Contenido/plantilla_tipo_normativadestacada.html.twig",
+		"/var/www/html/crazy-grow/js/vendor/backbone1.2.3.js",
+		"/var/www/html/crazy-grow/js/vendor/underscore1.8.3.js",
+		"/home/raul/workspace/static/portal2/1/0/grunt/sass/morfos2/lib/susy/_grid.scss",
+		"/home/raul/workspace/static/portal2/1/0/grunt/sass/morfos2/lib/susy/_functions.scss",
+		"/home/raul/workspace/static/portal2/1/0/grunt/sass/morfos2/lib/susy/_background.scss",
+		"/home/raul/workspace/static/portal2/1/0/grunt/sass/morfos2/lib/susy/_support.scss",
+		"/home/raul/workspace/static/portal2/1/0/grunt/sass/morfos2/core/_resources.scss",
+		"/home/raul/workspace/static/portal2/1/0/grunt/sass/morfos2/morfos.core.scss",
+		"/home/raul/workspace/static/portal2/1/0/grunt/sass/_styles_base.scss",
+		"/home/raul/workspace/portal2/app/static/sass/app/_common.scss",
+		"/home/raul/workspace/portal2/app/static/sass/app/_variables.scss",
+		"/home/raul/workspace/portal2/app/static/sass/lib/bootstrap/_variables.scss",
+		"/home/raul/workspace/portal2/app/static/sass/lib/_bootstrap.scss",
+		"/home/raul/workspace/portal2/app/static/sass/lib/reset.scss",
+		"/home/raul/workspace/portal2/app/static/sass/app.scss",
+		"/home/raul/workspace/static/portal2/1/0/css/styles.css",
+		"/home/raul/workspace/portal2/app/AppKernel.php",
+		"/home/raul/workspace/portal2/vendor/dsic/upload-bundle/Dsic/UploadBundle/ParamConverter/UploaderObjectConverter.php",
+		"/home/raul/workspace/portal2/app/config/config.yml",
+		"/home/raul/workspace/portal2/app/config/parameters.yml",
+		"/home/raul/workspace/portal2/vendor/dsic/morfos-bundle/Dsic/MorfosBundle/Resources/views/morfos_layout.html.twig",
+		"/home/raul/workspace/portal2/.gitignore",
+		"/home/raul/workspace/static/morfos-content-manager/1/2/js/mcm.js",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/AdminBundle/Resources/views/Templates/lista_item_paginas_trash.html",
+		"/home/raul/workspace/subportalestransparencia/app/static/public/js/back.app.min.js",
+		"/home/raul/workspace/subportalestransparencia/app/static/public/js/general.js",
+		"/home/raul/workspace/static/subportales/dev/js/back.app.js",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/_assistant.scss",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/SubportalBundle/Form/Type/MiPortalType.php",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CmsBundle/Resources/views/Plantillas/portada2-old.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CmsBundle/Resources/views/Plantillas/articulo_con_relacionada_old.html.twig",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/front/modules/plantillas/_portada1.scss",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CmsBundle/Resources/views/Plantillas/portada3-old.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CmsBundle/Resources/views/Pagina/contenedor_pagina_transparencia.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CmsBundle/Resources/views/Plantillas/portada-original.html.twig",
+		"/home/raul/workspace/subportalestransparencia/app/static/Gruntfile.js",
+		"/home/raul/workspace/subportalestransparencia/app/config/config_dev.yml",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/AdminBundle/Resources/views/level_pages.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoAccesoBundle/Resources/views/Register/complete_cuidadano.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoAccesoBundle/Resources/views/CiudadanoAcceso/denied.html.twig",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/styles_admin.scss",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/front/modules/plantillas/_portada-prueba.scss",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/rewrites/back/morfos/modules/widgets/_transparencia_imagen.scss",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoAccesoBundle/Resources/views/Register/register_selector/register_selector_acceso_password.html.twig",
+		"/home/raul/workspace/subportalestransparencia/app/Resources/TwigBundle/views/Exception/layout.html.twig",
+		"/home/raul/workspace/subportalestransparencia/app/static/bower_components/morfos-content-manager/js/page-editor.html",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoBundle/Resources/views/layout_content.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/BuscadorBundle/Resources/views/Contenido/error.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/BuscadorBundle/Resources/views/Contenido/default.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/BuscadorBundle/Resources/views/Buscador/resultados.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/AdminBundle/Resources/views/Admin/caches.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoBundle/Resources/views/layout_article.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/AdminBundle/Resources/views/Admin/listado_paginas.html.twig",
+		"/home/raul/workspace/subportalestransparencia/app/config/morfos.yml",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoAccesoBundle/Resources/views/Register/register_select.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoAccesoBundle/Resources/views/Register/register_selector/register_selector_acceso_clave.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoBundle/Resources/views/Secured/zona_usuario.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoAccesoBundle/Resources/views/CiudadanoAcceso/login_forms/login_form_acceso_social_network.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoAccesoBundle/Resources/views/CiudadanoAcceso/login_forms/login_form_acceso_password.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoAccesoBundle/Resources/views/CiudadanoAcceso/login_form.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/ArticuloBundle/Resources/views/Articulo/articulo.html.twig",
+		"/home/raul/workspace/subportalestransparencia/vendor/dsic/comentario-bundle/Dsic/ComentarioBundle/Resources/views/Hilo/index.html.twig",
+		"/home/raul/workspace/subportalestransparencia/vendor/dsic/comentario-bundle/Dsic/ComentarioBundle/Resources/views/Hilo/comentarios.html.twig",
+		"/home/raul/workspace/subportalestransparencia/vendor/dsic/comentario-bundle/Dsic/ComentarioBundle/Resources/views/Hilo/comentario.html.twig",
+		"/home/raul/workspace/subportalestransparencia/app/Resources/views/Comentarios/comentarios.html.twig",
+		"/home/raul/workspace/subportalestransparencia/vendor/dsic/morfos2/Dsic/Morfos2/public/grid.html",
+		"/home/raul/workspace/subportalestransparencia/app/static/release/js/tmp/subportalestransparencia/subportalestransparencia.js",
+		"/home/raul/workspace/subportalestransparencia/vendor/dsic/morfos2/Dsic/Morfos2/public/index.html",
+		"/home/raul/workspace/subportalestransparencia/app/static/bower_components/morfos/index.html",
+		"/home/raul/workspace/static/subportales/dev/js/app.js",
+		"/home/raul/workspace/subportalestransparencia/vendor/dsic/morfos2/Dsic/Morfos2/public/datagrid.html",
+		"/home/raul/workspace/subportalestransparencia/app/config/routing.yml",
+		"/home/raul/workspace/subportalestransparencia/composer.json",
+		"/home/raul/workspace/subportalestransparencia/vendor/dsic/morfos-bundle/Dsic/MorfosBundle/Resources/views/morfos_layout.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CmsBundle/Services/Modulos/ModuloTransparenciaImagen.php",
+		"/home/raul/workspace/subportalestransparencia/app/static/public/js/images/images.js",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CmsBundle/Resources/views/Modulos/modulo_transparencia_texto_descripcion_enlace.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CmsBundle/Resources/views/Modulos/modulo_transparencia_explore.html.twig",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/temas/local3/_base-transparencia-t3.scss",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/temas/local3/style/_rewrites-styles.scss",
+		"/home/raul/workspace/subportalestransparencia/app/config/config.yml",
+		"/home/raul/workspace/static/subportales/dev/js/images/images.js",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CmsBundle/Resources/views/Form/fields.html.twig",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/front/modules/search/_facets.scss",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoAccesoBundle/Resources/views/CiudadanoAcceso/login_selector/login_selector_acceso_social_network.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoAccesoBundle/Resources/views/Register/register_selector/register_selector_acceso_certificado.html.twig",
+		"/home/raul/workspace/subportalestransparencia/app/static/bower_components/morfos/js/widgets/formulario.js",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/BuscadorBundle/Controller/BuscadorController.php",
+		"/home/raul/workspace/static/subportales/dev/js/libs/jquery.imagemapster.js",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/BuscadorBundle/Resources/views/Contenido/plantilla_ente.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/BuscadorBundle/Resources/views/Resultado/estructura.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/BuscadorBundle/Resources/views/Resultado/ente.html.twig",
+		"/home/raul/workspace/subportalestransparencia/app/Resources/views/DirectorioPortal/mapa-espana.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/BuscadorBundle/Resources/views/Contenido/plantilla_tipo_articulo.html.twig",
+		"/home/raul/workspace/subportalestransparencia/vendor/dsic/comentario-bundle/Dsic/ComentarioBundle/Resources/views/Hilo/form.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/SubportalBundle/Controller/DirectorioPortalController.php",
+		"/home/raul/workspace/subportalestransparencia/vendor/dsic/comentario-bundle/Dsic/ComentarioBundle/Form/Type/ComentarioType.php",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/AdminBundle/Resources/views/layout.html.twig",
+		"/home/raul/workspace/subportalestransparencia/app/cache/dev/__a-coruna/twig/2/3/23b7e492c8b52007588bbc7e1c2c4ec73256d42cbc75f144a787a3e5c6c6cc17.php",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/front/modules/mapa/_mapa.scss",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/ArticuloBundle/Form/Type/ArticuloType.php",
+		"/home/raul/workspace/subportalestransparencia/vendor/dsic/comentario-bundle/Dsic/ComentarioBundle/Form/Type/NuevoComentarioType.php",
+		"/home/raul/workspace/static/subportales/dev/js/libs/ProgressBar.js",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/back/modules/articles/_article.scss",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/back/modules/comentarios/_comentarios.scss",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/front/modules/_comentarios.scss",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/front/modules/ui/_register.scss",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/front/modules/ui/_login.scss",
+		"/home/raul/workspace/subportalestransparencia/app/static/sass/lib/grid/_grid.scss",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoAccesoBundle/Security/AccesoServices/AccesoSocialNetworkService.php",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoAccesoBundle/Resources/views/CiudadanoAcceso/login_selector/login_selector_acceso_certificado.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/AdminBundle/Resources/views/Admin/moderar_comentario.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CmsBundle/Resources/views/Media/galeria.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/AdminBundle/Resources/views/DataGrid/datagrid_base.html.twig",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/AdminBundle/Controller/ComentarioAdminController.php",
+		"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoAccesoBundle/Form/Type/AccesoPasswordType.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/raul/workspace/subportalestransparencia/",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/",
+			"/home/raul/workspace/subportalestransparencia/app",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/src/Dsic",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/src/",
+			"/home/raul/workspace/subportalestransparencia/",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia",
+			"/home/raul/workspace/static/subportales/dev/js",
+			"/home/raul/workspace/static",
+			"/home/raul/workspace/static/subportales",
+			"/home/raul/workspace/static/subportales/dev/js",
+			"/home/raul/workspace/subportalestransparencia/",
+			"/home/raul/workspace/static/subportales",
+			"/home/raul/workspace/subportalestransparencia/",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/",
+			"/home/raul/workspace/subportalestransparencia/src/",
+			"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CiudadanoAccesoBundle/Resources",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia",
+			"/home/raul/workspace/subportalestransparencia/vendor/dsic/morfos-bundle",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/CmsBundle/Services",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/app/static",
+			"/home/raul/workspace/subportalestransparencia/",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/maquetacion/Morfos2/sass",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/app/static",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/vendor",
+			"/home/raul/workspace/subportalestransparencia",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/vendor/dsic",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/src/",
+			"/home/raul/workspace/subportalestransparencia",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia",
+			"/home/raul/workspace/subportalestransparencia/",
+			"/home/raul/workspace/subportalestransparencia/vendor/dsic/comentario-bundle/Dsic/ComentarioBundle/Resources",
+			"/home/raul/workspace/subportalestransparencia/vendor/dsic/comentario-bundle/Dsic/ComentarioBundle",
+			"/home/raul/workspace/subportalestransparencia/vendor/dsic/comentario-bundle",
+			"/home/raul/workspace/subportalestransparencia",
+			"/home/raul/workspace/subportalestransparencia/vendor/dsic/comentario-bundle/Dsic/ComentarioBundle",
+			"/home/raul/workspace/maquetacion/Morfos2/sass",
+			"/home/raul/workspace/static/morfos",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia",
+			"/home/raul/workspace/subportalestransparencia/src/Dsic",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/app/static",
+			"/home/raul/workspace/subportalestransparencia",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/app/static",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/src/Dsic",
+			"/home/raul/workspace/subportalestransparencia",
+			"/home/raul/workspace/subportalestransparencia/src/Dsic",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/src/Dsic/Transparencia/AdminBundle",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace",
+			"/home/raul/workspace/maquetacion",
+			"/home/raul/workspace/subportalestransparencia/app/static",
+			"/home/raul/workspace/subportalestransparencia/src",
+			"/home/raul/workspace/subportalestransparencia/",
+			"/home/raul/workspace/subportalestransparencia/app/static",
+			"/home/raul/workspace/static",
+			"/home/raul/workspace/subportalestransparencia/app/static/sass",
+			"/home/raul/workspace/subportalestransparencia/src/Dsic",
+			"*.html.twig",
+			"*.scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"database_password",
+			"Delegados",
+			"nombre",
+			"muestra contenido sin tra",
+			"contenido/gastoscaja",
+			"Maquetación de plantilla pendiente. Se muestra contenido sin tratar.",
+			"l",
+			"aportacionesSindicatos",
+			" \n",
+			"cambia",
+			";\n",
+			"#f5f5f5",
+			"grupo_enlaces_",
+			"demo",
+			"%s",
+			"mf-header ",
+			"#999",
+			"text",
+			"color",
+			"//",
+			"js-pages-list--l",
+			"mcm-pages--list",
+			"js-pages-list--lista",
+			"js-list_template",
+			"js-pages-list--lista",
+			"js-",
+			"js-pages",
+			"js-pages-list",
+			"js-pages-list--lista",
+			"35px",
+			"mcm_pagina_container mcm-pages--item js-pages-list--lista",
+			".mcm-pages--page",
+			"mcm-pages--list",
+			"equalize",
+			".tr-portada--module",
+			"tr-portada--module",
+			".tr-flex",
+			".flex",
+			"mcm_module",
+			".tr-imagen--caption",
+			";\n",
+			"mcm_module",
+			".tr-imagen--figure",
+			"trad-pages-trash-list",
+			"js-pages-trash",
+			"mf-window-header--hgroup",
+			"mf-window-header--hgroup tr-article--hgroup",
+			"tr-context",
+			".tr-main ",
+			".tr-main",
+			"tr-portada--banners",
+			"re",
+			"rec7",
+			"rec",
+			"border",
+			"padding",
+			"style",
+			";\n",
+			"trad-pages",
+			"js-pages-list--button",
+			"js-pages-list--toolbar",
+			"trad-pages-dialog",
+			"tr-portada--banners",
+			"150",
+			"portada1",
+			"150",
+			"\">",
+			"class=\"tr-imagen--figure\"",
+			"150",
+			"150px",
+			"150",
+			"module",
+			"mcm_module",
+			".mcm-",
+			"mcm",
+			".mf-arbol-categorias--list",
+			"mcm-pages--open-btn",
+			"rotat",
+			"clic",
+			"border-radius",
+			"arbol-categorias--buttons",
+			"js-arbol-categorias-button",
+			"container",
+			"\"\\f127\"",
+			"red",
+			".mf-arbol-categorias--item",
+			"js-arbol-categorias--item mf-arbol-categorias--item",
+			"ayuda",
+			"primer",
+			"mf-footer tr-footer",
+			"tr-facet--check",
+			".tr-facet",
+			".tr-facet--check",
+			"nuevaCategoria",
+			"js-nueva-categoria",
+			"js-nueva-categoria mf-button-em",
+			"class=\"js-nueva-categoria mf-button-em  mf-action\"",
+			"mf-input",
+			"conte",
+			".tr-context",
+			"tr-context",
+			".tr-main",
+			"tr-main",
+			"tr-context--section",
+			"portada1",
+			".tr-portal1--header0",
+			"portada1",
+			"equalize.js",
+			"tr-register--header",
+			"¿No tiene cuenta?",
+			"Podrá seguir la actividad de las áreas que le interesen, configurando su propio Portal de la Transparencia. Además, le avisaremos de las novedades en las áreas elegidas. Recuerde que para la ",
+			"Correo electrónico",
+			" del Portal de Transparencia",
+			"ol.mcm-pages--list:first-child",
+			"mf-dialog--content",
+			"dialog",
+			"trad-pages-dialog",
+			"mf-dialog--content",
+			"js-pages-list--lista",
+			"mcm-editor--msg-visualizer",
+			"bla bla",
+			"form_acceso_email",
+			"Teléfono móvil",
+			"bla bla",
+			"portada1",
+			"tr-portada1--wide-content",
+			"*",
+			"min-h"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"areasTematicas",
+			"nivel_",
+			"grupo_enlaces_",
+			"tr-flex",
+			"portada",
+			"tr-home-transparencia",
+			"$dropdown-fondo",
+			"portada1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/sass/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"auto_name": "app.scss",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/public/javascripts/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"auto_name": "app.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "app/views/layout.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								324,
+								324
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/includes/menu.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"auto_name": "menu.jade",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 78.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.198484848485,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "proyect.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
