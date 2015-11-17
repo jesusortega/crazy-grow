@@ -1,7 +1,7 @@
 doctype html
 html(lang="en")
 	head
-		title title
+		title Crazy Grow
 		link(rel='stylesheet', href='/stylesheets/style.css')
 		link(rel='stylesheet', href='/stylesheets/_owl-carousel.css')
 		meta(charset="utf-8")
@@ -12,9 +12,21 @@ html(lang="en")
 			.col-xs-12
 					include ./includes/menu.jade
 		main
-			block alertas
-			block planCultivo
-			block graficoResumen
+			#alertas 
+				block alertas
+			
+			#resumenUsuario
+				block planCultivo
+				block graficoResumen
+
+			hr
+
+			#nuevoCultivo
+				block nuevoCultivoForm
+
+			#cultivoActivo
+				block cultivoActivo 
+
 		footer
 		script(src='/javascripts/vendor/jQuery-2.1.4.js')
 		script(src='/javascripts/vendor/underscore-1.8.3.js')

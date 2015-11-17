@@ -1,0 +1,20 @@
+.col-xs-12
+	.panel.panel-default
+		.panel-heading
+			h3 Nuevo cu
+		.panel-body
+			form(method="post" name="nuevoCultivo")
+				.form-group
+					label(for="nombreCultivo") Nombre para el cu
+					input#nombreCultivo.form-control(type="text")
+				.form-group
+					label(for="fechaInicioCultivo") Fecha de inicio del cu
+					input#fechaInicioCultivo.form-control(type="date")
+				.form-group
+					label(for="especieCultivo") Especie
+					input#especieCultivo.form-control(type="text")
+				.form-group
+					label(for="numPlantasCultivo") Número de plan del cu
+					input#numPlantasCultivo.form-control(type="number")
+				.form-group
+					button.btn-primary(type="submit") Crear cu
