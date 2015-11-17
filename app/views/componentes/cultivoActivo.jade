@@ -1,20 +1,63 @@
-- cultivoActivo = {nombre:'CU 1 de 2015', fecha:'25/04/1984', especie:'Super Skunk', nPlantas:24, notas:'Un parrafo de texto cualquiera', planCultivo:1}
+- cultivoActivo = {nombre:'Cultivo 1 2015', fecha:'25/04/1984', especie:'Super Skunk', nPlantas:24, notas:'Un parrafo de texto cualquiera', planCultivo:1}
 
 .col-xs-12.col-md-6
 	.panel.panel-default
 		.panel-heading
-			h3 #{cultivoActivo.nombre}
+			h3 #{cultivoActivo.nombre} - #{cultivoActivo.fecha}
 		.panel-body
-			ul
-				li Nombre: #{cultivoActivo.nombre}
-				li Fecha: #{cultivoActivo.fecha}
-				li Especie: #{cultivoActivo.especie}
-				li Nº de pla: #{cultivoActivo.nPlantas}
-				li Notas: #{cultivoActivo.notas}
-
-.col-xs-12.col-md-6
-	.panel.panel-default
-		.panel-heading
-			h3 Planes de cultivo
-		.panel-body
+			.row
+				.col-xs-12.col-md-8
+					h1 #{cultivoActivo.especie}
+				.col-xs-12.col-md-4
+					h1  #{cultivoActivo.nPlantas}
+					p Núm. de plantas
 			
+			button Ver anotaciones
+
+.col-xs-12.col-md-6
+	.panel.panel-default
+		.panel-heading
+			h3 Configurar plan de cultivo
+		.panel-body
+			form(method="POST")
+				.form-group
+					label(for="nombrePCultivo") Nombre para el plan de cultivo
+					input#nombrePCultivo.form-control(type="text")
+				.form-group
+					label(for="origenPCultivo") Indica si utilizas semilla o esqueje
+					input#origenPCultivo.form-control(type="text")
+				.form-group
+					label(for="fechaInicioPCultivo") Indica la fecha de inicio del cultivo
+					input#fechaInicioPCultivo.form-control(type="date")
+				.form-group
+					label(for="fechaTrasplantePCultivo") Indica la fecha de trasplante a contenedor definitivo
+					input#fechaTrasplantePCultivo.form-control(type="date")
+				.form-group
+					label(for="fechaFloracionPCultivo") Indica la fecha de inicio de la floración
+					input#fechaFloracionPCultivo.form-control(type="date")
+				.form-group
+					label(for="fechaFinFloracionPCultivo") Indica la fecha de fin de la floración
+					input#fechaFinFloracionPCultivo.form-control(type="date")
+				.form-group
+					label(for="ferCrecimientoPCultivo") Qué fertilizante de crecimiento usas
+					input#ferCrecimientoPCultivo.form-control(type="text")
+				.form-group
+					label(for="ferFloracionPCultivo") Qué fertilizante de floración usas
+					input#ferFloracionPCultivo.form-control(type="text")
+				.form-group
+					label(for="rebCogollosPCultivo") Qué rebienta-cogollos usas
+					input#rebCogollosPCultivo.form-control(type="text")
+				.form-group
+					label(for="planificarProductoPCultivo") Añadir un nuevo producto a la planificación
+					button.form-control#planificarProductoPCultivo Planificar producto
+				.form-group
+					button Actualizar datos
+
+
+			form(method="POST")
+				
+
+				li Objetivos
+				li Capitulo guía
+
+include planCultivo.jade
