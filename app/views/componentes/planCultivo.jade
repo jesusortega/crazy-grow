@@ -1,0 +1,19 @@
+- productos = ['Bio Grow','Bio Bloom','Top Max']
+
+.col-xs-12
+	.owl-carousel
+		.item
+			.panel.panel-default
+					.panel-heading
+						p Productos
+					- each val in productos
+						.panel-footer
+							p #{val}
+		- for(var i=1;i<14;i++)
+			.item
+				.panel.panel-default
+					.panel-heading
+						p Semana #{i}
+					- each val in productos
+						.panel-footer
+							p Cantidad de #{val} en la #{i} semana

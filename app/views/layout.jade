@@ -1,8 +1,9 @@
 doctype html
 html(lang="en")
 	head
-		title= title
+		title title
 		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel='stylesheet', href='/stylesheets/_owl-carousel.css')
 		meta(charset="utf-8")
 		meta(http-equiv="X-UA-Compatible" content="IE=edge")
 		meta(name="viewport" content="width=device-width, initial-scale=1")
@@ -10,9 +11,16 @@ html(lang="en")
 		header
 			.col-xs-12
 					include ./includes/menu.jade
-					block body
+		main
+			block alertas
+			block planCultivo
+			block graficoResumen
+		footer
 		script(src='/javascripts/vendor/jQuery-2.1.4.js')
 		script(src='/javascripts/vendor/underscore-1.8.3.js')
 		script(src='/javascripts/vendor/backbone-1.2.3.js')
 		script(src="/javascripts/vendor/bootstrap.min.js")
+		script(src="/javascripts/vendor/owl.carousel.min.js")
+		script(src="/javascripts/vendor/chart.min.js")
 
+		script $('.owl-carousel').owlCarousel()
