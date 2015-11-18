@@ -1,7 +1,6 @@
 //Owl Carousel
 $('.owl-carousel').owlCarousel();
 
-
 //Charts
 var ctx = $("#myChart").get(0).getContext("2d");
 var myNewChart = new Chart(ctx);

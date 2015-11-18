@@ -1,0 +1,33 @@
+.modal.fade#modalPlanificarProducto(tabindex="-1" role="dialog" aria-labelledby="myModalLabel")
+	.modal-dialog(role="document")
+		.modal-content
+			.modal-header
+				button.close(type="button" data-dismiss="modal" aria-label="Close")
+					span(aria-hidden="true") &times;
+				h4.modal-title#myModalLabel Planificar nuevo producto
+			.modal-body
+				form
+					.row
+						.col-xs-12
+							.form-group
+								label(for="nombreNuevoProducto") Indica el nombre del nuevo producto
+								input#planificarNuevoProducto.form-control(type="text")
+							.form-group
+								label(for="descripcionNuevoProducto") Indica la descripción del nuevo producto
+								input#descripcionNuevoProducto.form-control(type="text")
+						.col-xs-6
+							.form-group
+								label(for="nitrogenoNuevoProducto") Nitrógeno
+								input#nitrogenoNuevoProducto.form-control(type="text")
+							.form-group
+								label(for="fosforoNuevoProducto") Fósforo
+								input#fosforoNuevoProducto.form-control(type="text")
+						.col-xs-6
+							.form-group
+								label(for="potasioNuevoProducto") Potasio
+								input#potasioNuevoProducto.form-control(type="text")
+							.form-group
+								label(for="azufreNuevoProducto") Azufre
+								input#azufreNuevoProducto.form-control(type="text")
+			.modal-footer
+				button.btn.btn-default(type="button" data-dismiss="modal") Close
