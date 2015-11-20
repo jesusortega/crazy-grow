@@ -1,5 +1,5 @@
 var Producto = Backbone.Model.extend({
-	id: -1,
+	idAttribute: -1,
 	nombre: 'producto de testeo',
 	marca: 'marca de testeo',
 	descripcion: 'descripcion de producto de testeo',

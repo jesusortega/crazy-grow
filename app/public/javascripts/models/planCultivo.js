@@ -1,6 +1,6 @@
 var PlanCultivo = Backbone.Model.extend({
 
-	id: -1,
+	idAttribute: -1,
 	nombre: 'Plan de cultivo de testeo',
 	origen: 'Origen de testeo',
 	fechaInicio: null,

@@ -1,6 +1,6 @@
 var Cultivo = Backbone.Model.extend({
 
-    id: -1,
+    idAttribute: -1,
     nombre: 'Cultivo de testeo',
     especie: 'Especie de testeo',
     fechaInicio: null,
@@ -10,9 +10,14 @@ var Cultivo = Backbone.Model.extend({
     planCultivo: null,
     notas: null,
 
+    //Al iniciar...
     initialize: function(){
-    	console.log('Cultivo model iniciado: id = '+ this.id+', nombre = '+ this.nombre+', especie = '+ this.especie+', fechaInicio = '+ this.fechaInicio+', fechaFin = '+ this.fechaFin+', numPlantas = '+ this.numPlantas+', imagenes = '+ this.imagenes+', planCultivo = '+ this.planCultivo+', notas = '+ this.notas);
+    	console.log('Cultivo model iniciado');
     }
+
 });
 
-var cultivo = new Cultivo();
+//Al cambiar...
+Cultivo.bind('change', function(){
+	console.log('Cultivo lanzó evento Change');
+});

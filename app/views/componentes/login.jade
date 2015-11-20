@@ -1,0 +1,66 @@
+#todoapp
+	.title
+		h1 Parse Todos
+	.content
+
+//Templates
+script#login-template(type="text/template")
+	header#header
+		.login
+			form.login-form
+				h2 Log In
+				div.error.hide
+				input#login-username(type="text" placeholder="Username")
+				input#login-password(type="password" placeholder="Password")
+				button Log In
+
+			form.signup-form
+				h2 Sign Up
+				.error.hide
+				input#signup-username(type="text" placeholder="Username")
+				input#signup-password(type="password" placeholder="Create a Password")
+				button Sign Up
+
+
+script#manage-todos-template(type="text/template")
+	#user-info
+		Signed in as <%= Parse.User.current().escape("username") %> (<a href="#" class="log-out">Log out</a>)
+
+	.section
+		header#header
+			input id="new-todo" placeholder="What needs to be done?" type="text" />
+
+		#main
+			input#toggle-all(type="checkbox")
+			label(for="toggle-all") Mark all as complete
+          
+			ul#todo-list
+				img src='images/spinner.gif' class='spinner'
+
+		div#todo-stats
+
+
+script#item-template(type="text/template")
+	li(class="<%= done ? 'completed' : '' %>")
+		.view
+			input.toggle(type="checkbox" <%= done ? 'checked="checked"' : '' %>)
+			label.todo-content <%= _.escape(content) %>
+			button.todo-destroy
+
+		input class="edit" value="<%= _.escape(content) %>"
+
+
+script#stats-template(type="text/template")
+	footer#footer
+		span#todo-count
+			strong <%= remaining %> 
+			p <%= remaining == 1 ? 'item' : 'items' %> left
+		ul#filters
+			li
+				a#all.selected(href="javascript:void(0)") All
+			li
+				a#active(href="javascript:void(0)") Active
+			li
+				a#completed(href="javascript:void(0)") Completed
+	
+		button#clear-completed Clear completed (<%= done %>)
