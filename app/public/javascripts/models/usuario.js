@@ -1,14 +1,27 @@
 var Usuario = Backbone.Model.extend({
-	idAttribute: -1,
-	nick: 'Nickname de testeo',
-	email: 'raul.duque.montanez@gmail.com',
-	password: 'RdM04848',
-	fechaRegistro: null,
-	cultivos: -1,
+	
+	tableName: 'usuarios',
 
 	initialize: function(){
-		console.log('Usuario model creado')
-	}
+		console.log('Usuario vacío model creado');
+	},
+
+	nuevoUsuario: function(nick, email, pass){
+		//alert(nick+ ' - '+email+' - '+password);
+		this.set({
+			nick: nick,
+			email: email,
+			password: pass,
+			fechaRegistro: 'fechaRegistro',
+			cultivos: 0,
+		});
+
+		module.exports = this;
+
+		console.log('Instanciado un nuevo usuario');
+		return true;
+	},
+
 });
 
 var usuario = new Usuario();
